@@ -47,7 +47,7 @@ const Calculator = () => {
                     
                 }else if(button == "C"){
                     setInput("");
-                    result("");
+                    setResult("");
                 }else
                     setInput((prv) => prv + button);
             }}
